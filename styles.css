@@ -1,0 +1,242 @@
+/*contenido general*/
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  /*section*/
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /*header*/
+  .navbar {
+    padding: 2rem;
+    background-color: #fcf6d3;
+  }
+  .navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+  }
+  .image-perfil {
+    margin: 10px;
+  }
+  .image-perfil, img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+  }
+  .datos-principales {
+    min-height: 250px;
+    text-align: center;
+  }
+  .datos-principales, h1 {
+    color: #4f7bf3;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: bold;
+  }
+  h2 {
+    color: #9cbbba;
+    font-family: "Trebuchet MS", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+  }
+
+  .menu {
+    width: 40px;
+    height: auto;
+    padding: 0px;
+    margin: 8px;
+    border: 0px;
+  }
+  
+  /*El contenido principal*/
+  .parte-oscura {
+    color: #f5c979;
+    background-color: #2a1764;
+  }
+  .parte-clara {
+    color: #641e67;
+    background-color: #c0eef2;
+  }
+  body {
+    background: url(https://fondosmil.com/fondo/23443.jpg);
+    background-size: cover;
+  }
+  /*sobre mi*/
+  .sobre-mi {
+    height: 600px;
+    padding: 10px;
+  }
+  .seccion-titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    font-family: "IBM Plex Sans", sans-serif;
+  }
+  .seccion-texto {
+    color: #f5f6f7;
+    padding: 40px;
+    font-size: 1.2rem;
+    text-align: center;
+    font-style: italic;
+    justify-content: center;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-style: italic;
+  }
+  
+  /*Selectores*/
+  
+  .idiomas, .formacion {
+    height: 600px;
+    background-color: #fcf6d3e1;
+    border: 5px solid #432797;
+    border-radius: 5px;
+    padding: 40px 40px 40px 40px;
+    margin: 100px;
+  }
+
+  h4 {
+    color: #5f165b;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    margin-left: 50px;
+    font-size: 44px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .items {
+    color: rgb(6, 30, 109);
+    font-size: 28px;
+    font-family: Arial Narrow, sans-serif;
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+  }
+
+  li {
+    border: 20px;
+    padding: 20px;
+  }
+  
+  /*Contact*/
+  .contact .conteiner {
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+  }
+  .contact .rectangulo {
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white;
+  }
+  .contact .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .contact .descripcion {
+    color: white;
+    font-size: 1.2rem;
+    padding: 30px;
+    font-family: "Courier New", Courier, monospace;
+    font-style: italic;
+  }
+  .contact button {
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+  }
+  .contact button i {
+    color: white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+  }
+  .contact button:hover {
+    background-color: white;
+    color: black;
+  }
+  .contact button:hover i {
+    color: black;
+  }
+  /*FOOTER*/
+  footer {
+    min-height: 400px;
+    background-color: #301e67;
+  }
+  
+  .footer-text {
+    color: white;
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-style: italic;
+  }
+  .icons-redes a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+  }
+  .icons-redes i {
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2 ease-in;
+  }
+  .icons-redes a:hover {
+    background-color: white;
+    border: rgb(13, 110, 253);
+  }
+  .icons-redes a:hover i {
+    color: black;
+  }
+  .derechos-autor {
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
+    margin-top: 30px;
+  }
+  
+  /*media quory*/
+  @media screen and (max-width: 767px) {
+    .navbar-brand {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 600px){
+  .sobre-mi{
+    padding-top: 80px;
+  }
+  .sobre-mi .seccion-texto{
+    padding-top: 0px;
+    padding-bottom: 80px;
+  }
+  }
+  
+  @media screen and (max-width: 800px){
+  .cursos .carousel .carousel-item {
+    height: 300px;
+    height: 300px;
+  }
+  }
