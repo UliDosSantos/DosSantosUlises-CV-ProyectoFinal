@@ -40,7 +40,8 @@
     width: 40px;
     text-align: center;
     font-size: 30px;
-    border: solid 1px black;
+    color: white;
+    border: solid 1px rgb(255, 255, 255);
     border-radius: 20%;
   }
 
